@@ -1,0 +1,71 @@
+@font-face{
+    src: url("fonts/Reiswar.ttf") format(TrueType);
+    font-family: title;
+}
+@font-face{
+    src: url("fonts/Unbounded-VariableFont_wght.ttf") format(TrueType);
+    font-family: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: normal;
+}
+.image1 , .image2, .image3, .image4{
+    background-color: gray;
+    height: 750px;
+    width: 100%;
+    background-image: url("images/ee.gif");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text1 , .text2, .text3, .text4{
+    background-color: rgba(255, 255, 255, 0.577);
+    text-decoration: none;
+    padding: 0.8em;
+    border-radius: 0.6em;
+    font-size: 1.3em;
+    color: black;
+    font-family: title;
+}
+.block1 , .block2, .block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(221, 221, 221);
+    padding: 2.4em;
+    text-align: center;
+}
+.block1 h1 , .block2 h1, .block3 h1{
+    margin-bottom: 0.5em;
+}
+.block1 p , .block2 p, .block3 p{
+    font-weight: 300;
+    font-size: 1em;
+    color: #515151;
+}
+.image2{
+    background-image: url("images/ff.gif");
+}
+.block2{
+    height: 400px;
+}
+.image3{
+    background-image: url("images/dd.gif");
+}
+.image4{
+    background-image: url("images/hh.gif");
+    
+}
