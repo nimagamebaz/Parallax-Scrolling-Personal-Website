@@ -1,9 +1,9 @@
 @font-face{
-    src: url("fonts/Reiswar.ttf") format(TrueType);
+    src: url("Reiswar.ttf") format(TrueType);
     font-family: title;
 }
 @font-face{
-    src: url("fonts/Unbounded-VariableFont_wght.ttf") format(TrueType);
+    src: url("Unbounded-VariableFont_wght.ttf") format(TrueType);
     font-family: normal;
 }
 *{
@@ -18,7 +18,7 @@ body{
     background-color: gray;
     height: 750px;
     width: 100%;
-    background-image: url("images/ee.gif");
+    background-image: url("ee.gif");
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: center;
@@ -57,15 +57,15 @@ body{
     color: #515151;
 }
 .image2{
-    background-image: url("images/ff.gif");
+    background-image: url("ff.gif");
 }
 .block2{
     height: 400px;
 }
 .image3{
-    background-image: url("images/dd.gif");
+    background-image: url("dd.gif");
 }
 .image4{
-    background-image: url("images/hh.gif");
+    background-image: url("hh.gif");
     
 }
